@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/main.css">
+        <script src="js/jquery-1.12.4.min.js"></script>
+         <script src="js/ipo.js"></script>
+    
+		<title>IPoLa</title>
+	</head>
+	<body>
+        <div id="title">iPo浪</div>
+        <div id="button">
+            <div><input type="image" src="images/search.png" onclick="send();" id="search"/></div>
+            <div><input type="image" src="images/stray.png" onclick="send();" id="stray"/></div>
+            <div><input type="image" src="images/item.png" onclick="send();" id="item"/></div>
+            <div><input type="image" src="images/lifepost.png" onclick="send();" id="lifepost"/></div>
+            <div><img src="images/cathead.png" width="250px" height="180px" id="cathead"/></div>
+        </div>
+        <div>
+            <video id="myMovie" src="video/cat.mp4" autoplay loop style="opacity:0.8;" ></video>
+        </div>
+        <div id="subTitle">Some Where We Belong</div>
+         <div><input type="image" src="images/login2.png" onclick="location.href='Login.html'" id="login"/></div>      
+         <div id="talkbubble" hidden><img src="images/talkbubble.png" >
+            <div id="talkMSG"><a href="Login.html" >Login </a>or<br> 
+			<a href="Register.html" >Register</a></div>
+         </div>
+         
+        <!-- <div id="board">
+            <input type="text">
+            <input type="password">
+        </div> -->
+	</body>
+</html>
